@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?><ct:contentTypeSchema ct:_="" ma:_="" ma:contentTypeName="Request" ma:contentTypeID="0x0101005B854BB8D7539B4DAE3764D711F5E570006BD4B7C359BA8045A153EB29405B5462" ma:contentTypeVersion="101" ma:contentTypeDescription="" ma:contentTypeScope="" ma:versionID="5793b2cd04b96367c122a1b54089850b" xmlns:ct="http://schemas.microsoft.com/office/2006/metadata/contentType" xmlns:ma="http://schemas.microsoft.com/office/2006/metadata/properties/metaAttributes">
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/2006/metadata/properties" ma:root="true" ma:fieldsID="3a5c5b311e937246819331295572a139" ns2:_="" ns3:_="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/office/2006/metadata/properties" xmlns:ns2="f7308c59-e3fc-48bd-b337-1e1d3e35413d" xmlns:ns3="4043efe1-a268-4662-b2d0-7a13496800b5">
+<xsd:import namespace="f7308c59-e3fc-48bd-b337-1e1d3e35413d"/>
+<xsd:import namespace="4043efe1-a268-4662-b2d0-7a13496800b5"/>
+<xsd:element name="properties">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="documentManagement">
+<xsd:complexType>
+<xsd:all>
+<xsd:element ref="ns2:Job_x0020_Type" minOccurs="0"/>
+<xsd:element ref="ns2:Account_x0020_Contact" minOccurs="0"/>
+<xsd:element ref="ns2:Account_x0020_Contact_x0020_E-mail" minOccurs="0"/>
+<xsd:element ref="ns2:Account_x0020_Contact_x0020_Mobile_x0020_Phone" minOccurs="0"/>
+<xsd:element ref="ns2:Doc_x0020_Type" minOccurs="0"/>
+<xsd:element ref="ns2:Account_x0020_Backup_x0020_Contact_x0028_s_x0029__x0020_Email" minOccurs="0"/>
+<xsd:element ref="ns2:Account_x0020_Contact_x0020_Backup_x0028_s_x0029_" minOccurs="0"/>
+<xsd:element ref="ns2:Client_x0020_Approval_x0020_of_x0020_Distribution_x0020_Costs" minOccurs="0"/>
+<xsd:element ref="ns2:Client_x0020_Company" minOccurs="0"/>
+<xsd:element ref="ns2:Client_x0020_Name" minOccurs="0"/>
+<xsd:element ref="ns2:Client_x0020_E-mail" minOccurs="0"/>
+<xsd:element ref="ns2:Client_x0020_Phone" minOccurs="0"/>
+<xsd:element ref="ns2:Digital_x0020_Press_x0020_Release_x003f_" minOccurs="0"/>
+<xsd:element ref="ns2:Expedited_x0020_Process_x003f_" minOccurs="0"/>
+<xsd:element ref="ns2:Joint_x0020_Release" minOccurs="0"/>
+<xsd:element ref="ns2:MS_x0020_Draft_x0020_Alias" minOccurs="0"/>
+<xsd:element ref="ns2:Mention_x0020_a_x0020_Microsoft_x0020_contest_x002c__x0020_sweepstakes_x002c__x0020_or_x0020_premium_x0020_promotion_x003f_" minOccurs="0"/>
+<xsd:element ref="ns2:NS_x0020_Location" minOccurs="0"/>
+<xsd:element ref="ns2:Attorney_x002f_Paralegal" minOccurs="0"/>
+<xsd:element ref="ns2:Permissions_x0020_to_x0020_Cite_x0020_Third-Party_x0020_Research" minOccurs="0"/>
+<xsd:element ref="ns2:Photo_x0020_Distribution" minOccurs="0"/>
+<xsd:element ref="ns2:Posted_x0020_to_x0020_PressPass" minOccurs="0"/>
+<xsd:element ref="ns2:Posted_x0020_to_x0020_EMEA_x0020_Press_x0020_Centre" minOccurs="0"/>
+<xsd:element ref="ns2:Process_x0020_Number" minOccurs="0"/>
+<xsd:element ref="ns2:Production_x0020_Coordinator" minOccurs="0"/>
+<xsd:element ref="ns2:Quote_x0020_Permissions" minOccurs="0"/>
+<xsd:element ref="ns2:Reasons_x0020_for_x0020_any_x0020_delays" minOccurs="0"/>
+<xsd:element ref="ns2:Release_x0020_Date_x0020_and_x0020_Time" minOccurs="0"/>
+<xsd:element ref="ns2:Rush_x0020_or_x0020_Crisis_x003f_" minOccurs="0"/>
+<xsd:element ref="ns2:Rush_x0020_Request_x0020_E-Mail_x0020_Sent" minOccurs="0"/>
+<xsd:element ref="ns2:Requested_x0020_Completion_x0020_Date" minOccurs="0"/>
+<xsd:element ref="ns2:Special_x0020_Instructions" minOccurs="0"/>
+<xsd:element ref="ns2:Translation_x0020_Required" minOccurs="0"/>
+<xsd:element ref="ns2:Wire_x0020_Distribution" minOccurs="0"/>
+<xsd:element ref="ns2:Instructions" minOccurs="0"/>
+<xsd:element ref="ns2:Document_x0020_Writer" minOccurs="0"/>
+<xsd:element ref="ns2:AdLaw_x0020_Reviewer" minOccurs="0"/>
+<xsd:element ref="ns2:Done_x002c__x0020_Killed_x002c__x0020_On_x0020_Hold" minOccurs="0"/>
+<xsd:element ref="ns2:Released_x0020_By" minOccurs="0"/>
+<xsd:element ref="ns2:Started" minOccurs="0"/>
+<xsd:element ref="ns2:LOI" minOccurs="0"/>
+<xsd:element ref="ns2:MOU" minOccurs="0"/>
+<xsd:element ref="ns2:Other_x0020_Legal" minOccurs="0"/>
+<xsd:element ref="ns2:Account_x0020_Backup_x0020_Mobile_x0020_Phone" minOccurs="0"/>
+<xsd:element ref="ns2:DPR_x0020__x002b__x0020_PR" minOccurs="0"/>
+<xsd:element ref="ns2:Attorney_x0020_Involved" minOccurs="0"/>
+<xsd:element ref="ns2:Attorney_x0020_Email" minOccurs="0"/>
+<xsd:element ref="ns2:Attorney_x0020_Phone" minOccurs="0"/>
+<xsd:element ref="ns2:Time_x0020_Zone" minOccurs="0"/>
+<xsd:element ref="ns2:Internal_x0020_Order_x0028_I_x002f_O_x0029__x0023_" minOccurs="0"/>
+<xsd:element ref="ns2:MS_x0020_Account_x0020__x0023_" minOccurs="0"/>
+<xsd:element ref="ns2:Posted_x0020_to_x0020_MS_x0020_PressPass" minOccurs="0"/>
+<xsd:element ref="ns2:Job_x0020_Number" minOccurs="0"/>
+<xsd:element ref="ns2:Editing_x0020_Level" minOccurs="0"/>
+<xsd:element ref="ns3:Proposed_x0020_Tags" minOccurs="0"/>
+<xsd:element ref="ns3:For_x0020_MS_x0020_VPR_x002d_VPK_x002d_Newsroom" minOccurs="0"/>
+<xsd:element ref="ns3:WE_x0020_Project_x0020_Manager" minOccurs="0"/>
+</xsd:all>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<xsd:schema targetNamespace="f7308c59-e3fc-48bd-b337-1e1d3e35413d" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dms="http://schemas.microsoft.com/office/2006/documentManagement/types" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls">
+<xsd:import namespace="http://schemas.microsoft.com/office/2006/documentManagement/types"/>
+<xsd:import namespace="http://schemas.microsoft.com/office/infopath/2007/PartnerControls"/>
+<xsd:element name="Job_x0020_Type" ma:index="2" nillable="true" ma:displayName="Job Type" ma:default="Editing Only" ma:format="Dropdown" ma:internalName="Job_x0020_Type">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="Editing Only"/>
+<xsd:enumeration value="Production"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Account_x0020_Contact" ma:index="3" nillable="true" ma:displayName="Account Contact" ma:internalName="Account_x0020_Contact">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="50"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Account_x0020_Contact_x0020_E-mail" ma:index="4" nillable="true" ma:displayName="Account Contact E-mail" ma:description="Email address of contact" ma:internalName="Account_x0020_Contact_x0020_E_x002d_mail">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Account_x0020_Contact_x0020_Mobile_x0020_Phone" ma:index="5" nillable="true" ma:displayName="Account Contact Mobile Phone" ma:description="Phone number for Account Contact" ma:internalName="Account_x0020_Contact_x0020_Mobile_x0020_Phone">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="30"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Doc_x0020_Type" ma:index="6" nillable="true" ma:displayName="Doc Type" ma:default="Abstract" ma:format="Dropdown" ma:internalName="Doc_x0020_Type">
+<xsd:simpleType>
+<xsd:union memberTypes="dms:Text">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="Abstract"/>
+<xsd:enumeration value="Article"/>
+<xsd:enumeration value="Audio News Release"/>
+<xsd:enumeration value="Backgrounder"/>
+<xsd:enumeration value="Biography"/>
+<xsd:enumeration value="Blast Email Text"/>
+<xsd:enumeration value="Blog"/>
+<xsd:enumeration value="Boilerplate"/>
+<xsd:enumeration value="Book of Influence"/>
+<xsd:enumeration value="Briefing"/>
+<xsd:enumeration value="Caption"/>
+<xsd:enumeration value="Case Study"/>
+<xsd:enumeration value="Coverage Report"/>
+<xsd:enumeration value="Edit Only (no formatting/distribution needed)"/>
+<xsd:enumeration value="Fact Sheet"/>
+<xsd:enumeration value="FAQ and QA"/>
+<xsd:enumeration value="IMM Report"/>
+<xsd:enumeration value="Influence 360"/>
+<xsd:enumeration value="Invitation"/>
+<xsd:enumeration value="Letter"/>
+<xsd:enumeration value="Matte Release"/>
+<xsd:enumeration value="Media Alert"/>
+<xsd:enumeration value="Other"/>
+<xsd:enumeration value="Overview"/>
+<xsd:enumeration value="PowerPoint Presentation"/>
+<xsd:enumeration value="PR Kit"/>
+<xsd:enumeration value="PR Plan"/>
+<xsd:enumeration value="Pre-edit"/>
+<xsd:enumeration value="Presentation"/>
+<xsd:enumeration value="Press Content"/>
+<xsd:enumeration value="Press Release"/>
+<xsd:enumeration value="PressPass feature story (not PR or FS)"/>
+<xsd:enumeration value="Press Release (not third-party PR)"/>
+<xsd:enumeration value="Quote Sheet"/>
+<xsd:enumeration value="Reviewers Guide"/>
+<xsd:enumeration value="RFP"/>
+<xsd:enumeration value="Speech"/>
+<xsd:enumeration value="Statement"/>
+<xsd:enumeration value="Template"/>
+<xsd:enumeration value="Third-party Release"/>
+<xsd:enumeration value="Transcripts"/>
+<xsd:enumeration value="VPR"/>
+<xsd:enumeration value="Web Copy"/>
+<xsd:enumeration value="White Paper"/>
+<xsd:enumeration value="Windows Client Weekly Coverage Report"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:union>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Account_x0020_Backup_x0020_Contact_x0028_s_x0029__x0020_Email" ma:index="7" nillable="true" ma:displayName="Account Backup Contact(s) Email" ma:description="Account Backups need a way to be contacted" ma:internalName="Account_x0020_Backup_x0020_Contact_x0028_s_x0029__x0020_Email">
+<xsd:simpleType>
+<xsd:restriction base="dms:Note">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Account_x0020_Contact_x0020_Backup_x0028_s_x0029_" ma:index="8" nillable="true" ma:displayName="Account Contact Backup(s)" ma:internalName="Account_x0020_Contact_x0020_Backup_x0028_s_x0029_">
+<xsd:simpleType>
+<xsd:restriction base="dms:Note">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Client_x0020_Approval_x0020_of_x0020_Distribution_x0020_Costs" ma:index="9" nillable="true" ma:displayName="Client Approval of Distribution Costs" ma:default="0" ma:description="Any wire distribution beyond US1 newsline (including photo distribution) is not covered under Microsoft’s contract with PR Newswire. This means your client will be invoiced directly, either with a cross-charge from the Corporate Communications team, or directly by PR Newswire (depending on the distribution). Check here to confirm you client has approved this additional cost." ma:internalName="Client_x0020_Approval_x0020_of_x0020_Distribution_x0020_Costs">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Client_x0020_Company" ma:index="10" nillable="true" ma:displayName="Client Company" ma:default="Microsoft" ma:format="Dropdown" ma:internalName="Client_x0020_Company">
+<xsd:simpleType>
+<xsd:union memberTypes="dms:Text">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="Microsoft"/>
+<xsd:enumeration value="Other"/>
+<xsd:enumeration value="Waggener Internal"/>
+<xsd:enumeration value="Abbott"/>
+<xsd:enumeration value="AMD"/>
+<xsd:enumeration value="AVI Biopharma"/>
+<xsd:enumeration value="Canon"/>
+<xsd:enumeration value="DHL"/>
+<xsd:enumeration value="Financial Services Roundtable"/>
+<xsd:enumeration value="GE Healthcare"/>
+<xsd:enumeration value="Handmark"/>
+<xsd:enumeration value="HTC"/>
+<xsd:enumeration value="Invivodata"/>
+<xsd:enumeration value="Limelight"/>
+<xsd:enumeration value="Mastercard"/>
+<xsd:enumeration value="Nau"/>
+<xsd:enumeration value="Shire"/>
+<xsd:enumeration value="T-Mobile"/>
+<xsd:enumeration value="Tripos"/>
+<xsd:enumeration value="Trubion"/>
+<xsd:enumeration value="Voicebox"/>
+<xsd:enumeration value="WE New Business"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:union>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Client_x0020_Name" ma:index="11" nillable="true" ma:displayName="Client Name" ma:internalName="Client_x0020_Name">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Client_x0020_E-mail" ma:index="12" nillable="true" ma:displayName="Client E-mail" ma:default="" ma:description="add phone numbers if needed" ma:internalName="Client_x0020_E_x002d_mail">
+<xsd:simpleType>
+<xsd:restriction base="dms:Note">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Client_x0020_Phone" ma:index="13" nillable="true" ma:displayName="Client Phone" ma:internalName="Client_x0020_Phone">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="50"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Digital_x0020_Press_x0020_Release_x003f_" ma:index="14" nillable="true" ma:displayName="DPR Only" ma:default="0" ma:internalName="Digital_x0020_Press_x0020_Release_x003F_">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Expedited_x0020_Process_x003f_" ma:index="15" nillable="true" ma:displayName="Expedited Process?" ma:default="Standard" ma:format="Dropdown" ma:internalName="Expedited_x0020_Process_x003F_">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="Standard"/>
+<xsd:enumeration value="Standard to Rush"/>
+<xsd:enumeration value="Standard to Crisis"/>
+<xsd:enumeration value="Rush"/>
+<xsd:enumeration value="Rush to Standard"/>
+<xsd:enumeration value="Rush to Crisis"/>
+<xsd:enumeration value="Crisis"/>
+<xsd:enumeration value="Crisis to Rush"/>
+<xsd:enumeration value="Crisis to Standard"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Joint_x0020_Release" ma:index="16" nillable="true" ma:displayName="Joint Release" ma:internalName="Joint_x0020_Release">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="50"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="MS_x0020_Draft_x0020_Alias" ma:index="17" nillable="true" ma:displayName="MS Draft Alias" ma:default="0" ma:description="Production sends all Microsoft press release to the MS Draft alias as part of the Editing and Legal process. Only releases with confidential or sensitive content can bypass this step in the process. If you marked ‘No’, please provide context for your Production coordinator." ma:internalName="MS_x0020_Draft_x0020_Alias">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Mention_x0020_a_x0020_Microsoft_x0020_contest_x002c__x0020_sweepstakes_x002c__x0020_or_x0020_premium_x0020_promotion_x003f_" ma:index="18" nillable="true" ma:displayName="Mention a Microsoft contest, sweepstakes, or premium promotion?" ma:default="0" ma:description="If Yes, send the rules to your Production contact or include a URL where the legally approved rules are posted." ma:internalName="Mention_x0020_a_x0020_Microsoft_x0020_contest_x002C__x0020_sweepstakes_x002C__x0020_or_x0020_premium_x0020_promotion_x003F_">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NS_x0020_Location" ma:index="19" nillable="true" ma:displayName="NS Location" ma:default="" ma:format="Dropdown" ma:internalName="NS_x0020_Location">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="Editing"/>
+<xsd:enumeration value="Production"/>
+<xsd:enumeration value="Distribution"/>
+<xsd:enumeration value="Done"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Attorney_x002f_Paralegal" ma:index="20" nillable="true" ma:displayName="Attorney/Paralegal" ma:description="Attorney/ Paralegal that was involved in negotiation (name, email, phone number)&#xA;" ma:internalName="Attorney_x002F_Paralegal">
+<xsd:simpleType>
+<xsd:restriction base="dms:Note">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Permissions_x0020_to_x0020_Cite_x0020_Third-Party_x0020_Research" ma:index="21" nillable="true" ma:displayName="Permissions to Cite Third-Party Research" ma:default="0" ma:description="Analyst and market research studies and reports require explicit permission for use in press material. Contact the Editing team with any questions about whether you have satisfied specific companies' requirements." ma:internalName="Permissions_x0020_to_x0020_Cite_x0020_Third_x002d_Party_x0020_Research">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Photo_x0020_Distribution" ma:index="22" nillable="true" ma:displayName="Photo Distribution" ma:default="0" ma:internalName="Photo_x0020_Distribution">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Posted_x0020_to_x0020_PressPass" ma:index="23" nillable="true" ma:displayName="Posted to PressPass" ma:default="0" ma:internalName="Posted_x0020_to_x0020_PressPass">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Posted_x0020_to_x0020_EMEA_x0020_Press_x0020_Centre" ma:index="24" nillable="true" ma:displayName="Posted to EMEA Press Centre" ma:default="0" ma:internalName="Posted_x0020_to_x0020_EMEA_x0020_Press_x0020_Centre">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Process_x0020_Number" ma:index="25" nillable="true" ma:displayName="Process Number" ma:default="First Process" ma:format="Dropdown" ma:internalName="Process_x0020_Number">
+<xsd:simpleType>
+<xsd:union memberTypes="dms:Text">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="First Process"/>
+<xsd:enumeration value="First Update"/>
+<xsd:enumeration value="Second Update"/>
+<xsd:enumeration value="Third Update"/>
+<xsd:enumeration value="Fourth Update"/>
+<xsd:enumeration value="Fifth Update"/>
+<xsd:enumeration value="Sixth Update"/>
+<xsd:enumeration value="Seventh Update"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:union>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Production_x0020_Coordinator" ma:index="26" nillable="true" ma:displayName="Production Coordinator" ma:list="{2cf292fa-0a55-471a-b0de-99d4c15ade3f}" ma:internalName="Production_x0020_Coordinator" ma:readOnly="false" ma:showField="Title" ma:web="2dfa56a0-688b-4fb1-be63-63e8a35e3e80">
+<xsd:simpleType>
+<xsd:restriction base="dms:Lookup"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Quote_x0020_Permissions" ma:index="27" nillable="true" ma:displayName="Quote Permissions" ma:default="0" ma:description="Quote permission must come directly from the quoted person or official representative of that person, and must include the entire text of the quote. If a quote permission is not obtained by the time of final, the account person has two options: The quote will be removed or an WE Account Manager or higher must taken written responsiblility for the quote. (The second option needs to be used only in unavoidable situations.)" ma:internalName="Quote_x0020_Permissions">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Reasons_x0020_for_x0020_any_x0020_delays" ma:index="28" nillable="true" ma:displayName="Reasons for any delays" ma:default="" ma:description="Mark all that apply, to help with any questions about cost" ma:internalName="Reasons_x0020_for_x0020_any_x0020_delays">
+<xsd:complexType>
+<xsd:complexContent>
+<xsd:extension base="dms:MultiChoiceFillIn">
+<xsd:sequence>
+<xsd:element name="Value" maxOccurs="unbounded" minOccurs="0" nillable="true">
+<xsd:simpleType>
+<xsd:union memberTypes="dms:Text">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="Incomplete draft submitted"/>
+<xsd:enumeration value="Many legal questions"/>
+<xsd:enumeration value="Many names/facts to check"/>
+<xsd:enumeration value="Many permissions needed"/>
+<xsd:enumeration value="Multiple signoffs/acct confused about signoff"/>
+<xsd:enumeration value="Post-final changes"/>
+<xsd:enumeration value="Set of docs to be made consistent"/>
+<xsd:enumeration value="Startover/rewrite"/>
+<xsd:enumeration value="Version control prob/compare versions"/>
+<xsd:enumeration value="Waiting time (late night/weekend)"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:union>
+</xsd:simpleType>
+</xsd:element>
+</xsd:sequence>
+</xsd:extension>
+</xsd:complexContent>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="Release_x0020_Date_x0020_and_x0020_Time" ma:index="29" nillable="true" ma:displayName="Release Date and Time" ma:internalName="Release_x0020_Date_x0020_and_x0020_Time">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Rush_x0020_or_x0020_Crisis_x003f_" ma:index="30" nillable="true" ma:displayName="Rush or Crisis?" ma:default="Standard" ma:description="Standard (submitted by 9 a.m. PT 3 days or more before release)&#xA;Rush (submitted by 9 a.m. PT two days before release date, billed at two times normal production/editing rate)&#xA;Crisis (submitted by 9 a.m. PT one day before release date, billed at three times normal production/editing rate)&#xA;" ma:format="Dropdown" ma:internalName="Rush_x0020_or_x0020_Crisis_x003F_">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="Standard"/>
+<xsd:enumeration value="Rush"/>
+<xsd:enumeration value="Crisis"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Rush_x0020_Request_x0020_E-Mail_x0020_Sent" ma:index="31" nillable="true" ma:displayName="Rush Request E-Mail Sent" ma:default="0" ma:internalName="Rush_x0020_Request_x0020_E_x002d_Mail_x0020_Sent">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Requested_x0020_Completion_x0020_Date" ma:index="32" nillable="true" ma:displayName="Requested Completion Date" ma:internalName="Requested_x0020_Completion_x0020_Date">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Special_x0020_Instructions" ma:index="33" nillable="true" ma:displayName="Special Instructions" ma:default="" ma:description="Any notes or information not captured by other fields" ma:internalName="Special_x0020_Instructions">
+<xsd:simpleType>
+<xsd:restriction base="dms:Note"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Translation_x0020_Required" ma:index="34" nillable="true" ma:displayName="Translation Required" ma:default="0" ma:description="Discuss detailed translation needs with your Production Coordinator." ma:internalName="Translation_x0020_Required">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Wire_x0020_Distribution" ma:index="35" nillable="true" ma:displayName="Wire Distribution" ma:default="None" ma:format="Dropdown" ma:internalName="Wire_x0020_Distribution">
+<xsd:simpleType>
+<xsd:union memberTypes="dms:Text">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="US1 (standard MS)"/>
+<xsd:enumeration value="Western Europe with Nordic Territories"/>
+<xsd:enumeration value="Pan Africa and MS Custom"/>
+<xsd:enumeration value="World General Media"/>
+<xsd:enumeration value="All Japan"/>
+<xsd:enumeration value="Israel"/>
+<xsd:enumeration value="Canada Gen Media"/>
+<xsd:enumeration value="Global High Tech"/>
+<xsd:enumeration value="National Hispanic"/>
+<xsd:enumeration value="None"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:union>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Instructions" ma:index="36" nillable="true" ma:displayName="Instructions" ma:default="" ma:description="These are added automatically." ma:internalName="Instructions">
+<xsd:simpleType>
+<xsd:restriction base="dms:Note"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Document_x0020_Writer" ma:index="37" nillable="true" ma:displayName="Document Writer" ma:internalName="Document_x0020_Writer">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="AdLaw_x0020_Reviewer" ma:index="38" nillable="true" ma:displayName="AdLaw Reviewer" ma:default="None" ma:internalName="AdLaw_x0020_Reviewer">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Done_x002c__x0020_Killed_x002c__x0020_On_x0020_Hold" ma:index="39" nillable="true" ma:displayName="Done, Killed, On Hold" ma:default="Active" ma:description="select on when/if appropriate" ma:format="Dropdown" ma:internalName="Done_x002C__x0020_Killed_x002C__x0020_On_x0020_Hold">
+<xsd:simpleType>
+<xsd:union memberTypes="dms:Text">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="Active"/>
+<xsd:enumeration value="Done"/>
+<xsd:enumeration value="Killed"/>
+<xsd:enumeration value="On Hold"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:union>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Released_x0020_By" ma:index="40" nillable="true" ma:displayName="Released By" ma:default="Client Company" ma:format="Dropdown" ma:internalName="Released_x0020_By">
+<xsd:simpleType>
+<xsd:union memberTypes="dms:Text">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="Client Company"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:union>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Started" ma:index="41" nillable="true" ma:displayName="Started" ma:default="0" ma:internalName="Started">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="LOI" ma:index="42" nillable="true" ma:displayName="LOI" ma:default="0" ma:description="Letter Of Intent" ma:internalName="LOI">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="MOU" ma:index="43" nillable="true" ma:displayName="MOU" ma:default="0" ma:description="Memorandum Of Understanding" ma:internalName="MOU">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Other_x0020_Legal" ma:index="44" nillable="true" ma:displayName="Other Legal" ma:internalName="Other_x0020_Legal">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Account_x0020_Backup_x0020_Mobile_x0020_Phone" ma:index="45" nillable="true" ma:displayName="Account Backup Mobile Phone" ma:internalName="Account_x0020_Backup_x0020_Mobile_x0020_Phone">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="50"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="DPR_x0020__x002b__x0020_PR" ma:index="54" nillable="true" ma:displayName="DPR + PR" ma:default="0" ma:internalName="DPR_x0020__x002B__x0020_PR">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Attorney_x0020_Involved" ma:index="55" nillable="true" ma:displayName="Attorney Involved" ma:default="0" ma:internalName="Attorney_x0020_Involved">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Attorney_x0020_Email" ma:index="56" nillable="true" ma:displayName="Attorney Email" ma:internalName="Attorney_x0020_Email">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="50"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Attorney_x0020_Phone" ma:index="57" nillable="true" ma:displayName="Attorney Phone" ma:internalName="Attorney_x0020_Phone">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="30"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Time_x0020_Zone" ma:index="66" nillable="true" ma:displayName="Time Zone" ma:internalName="Time_x0020_Zone">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="30"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Internal_x0020_Order_x0028_I_x002f_O_x0029__x0023_" ma:index="67" nillable="true" ma:displayName="Internal Order(I/O)#" ma:internalName="Internal_x0020_Order_x0028_I_x002F_O_x0029__x0023_">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="30"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="MS_x0020_Account_x0020__x0023_" ma:index="68" nillable="true" ma:displayName="MS Account #" ma:internalName="MS_x0020_Account_x0020__x0023_">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="40"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Posted_x0020_to_x0020_MS_x0020_PressPass" ma:index="76" nillable="true" ma:displayName="Posted to MS PressPass" ma:default="0" ma:internalName="Posted_x0020_to_x0020_MS_x0020_PressPass">
+<xsd:simpleType>
+<xsd:restriction base="dms:Boolean"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Job_x0020_Number" ma:index="82" nillable="true" ma:displayName="Job Number" ma:internalName="Job_x0020_Number">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="100"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Editing_x0020_Level" ma:index="83" nillable="true" ma:displayName="Editing Level" ma:default="" ma:format="Dropdown" ma:internalName="Editing_x0020_Level">
+<xsd:simpleType>
+<xsd:union memberTypes="dms:Text">
+<xsd:simpleType>
+<xsd:restriction base="dms:Choice">
+<xsd:enumeration value="Full Edit"/>
+<xsd:enumeration value="Medium Edit"/>
+<xsd:enumeration value="Light Edit"/>
+<xsd:enumeration value="Proofread"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:union>
+</xsd:simpleType>
+</xsd:element>
+</xsd:schema>
+<xsd:schema targetNamespace="4043efe1-a268-4662-b2d0-7a13496800b5" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dms="http://schemas.microsoft.com/office/2006/documentManagement/types" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls">
+<xsd:import namespace="http://schemas.microsoft.com/office/2006/documentManagement/types"/>
+<xsd:import namespace="http://schemas.microsoft.com/office/infopath/2007/PartnerControls"/>
+<xsd:element name="Proposed_x0020_Tags" ma:index="92" nillable="true" ma:displayName="Proposed Tags" ma:internalName="Proposed_x0020_Tags">
+<xsd:simpleType>
+<xsd:restriction base="dms:Note">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="For_x0020_MS_x0020_VPR_x002d_VPK_x002d_Newsroom" ma:index="93" nillable="true" ma:displayName="For MS VPR-VPK-Newsroom" ma:internalName="For_x0020_MS_x0020_VPR_x002d_VPK_x002d_Newsroom">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="WE_x0020_Project_x0020_Manager" ma:index="94" nillable="true" ma:displayName="WE Project Manager" ma:internalName="WE_x0020_Project_x0020_Manager">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="50"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+</xsd:schema>
+<xsd:schema targetNamespace="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" elementFormDefault="qualified" attributeFormDefault="unqualified" blockDefault="#all" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:odoc="http://schemas.microsoft.com/internal/obd">
+<xsd:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd"/>
+<xsd:import namespace="http://purl.org/dc/terms/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/2003/04/02/dcterms.xsd"/>
+<xsd:element name="coreProperties" type="CT_coreProperties"/>
+<xsd:complexType name="CT_coreProperties">
+<xsd:all>
+<xsd:element ref="dc:creator" minOccurs="0" maxOccurs="1"/>
+<xsd:element ref="dcterms:created" minOccurs="0" maxOccurs="1"/>
+<xsd:element ref="dc:identifier" minOccurs="0" maxOccurs="1"/>
+<xsd:element name="contentType" minOccurs="0" maxOccurs="1" type="xsd:string" ma:index="48" ma:displayName="Content Type"/>
+<xsd:element ref="dc:title" minOccurs="0" maxOccurs="1" ma:index="1" ma:displayName="Document Title"/>
+<xsd:element ref="dc:subject" minOccurs="0" maxOccurs="1"/>
+<xsd:element ref="dc:description" minOccurs="0" maxOccurs="1"/>
+<xsd:element name="keywords" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+<xsd:element ref="dc:language" minOccurs="0" maxOccurs="1"/>
+<xsd:element name="category" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+<xsd:element name="version" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+<xsd:element name="revision" minOccurs="0" maxOccurs="1" type="xsd:string">
+<xsd:annotation>
+<xsd:documentation>
+                        This value indicates the number of saves or revisions. The application is responsible for updating this value after each revision.
+                    </xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="lastModifiedBy" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+<xsd:element ref="dcterms:modified" minOccurs="0" maxOccurs="1"/>
+<xsd:element name="contentStatus" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+</xsd:all>
+</xsd:complexType>
+</xsd:schema>
+<xs:schema targetNamespace="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Person">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="pc:DisplayName" minOccurs="0"></xs:element>
+<xs:element ref="pc:AccountId" minOccurs="0"></xs:element>
+<xs:element ref="pc:AccountType" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="DisplayName" type="xs:string"></xs:element>
+<xs:element name="AccountId" type="xs:string"></xs:element>
+<xs:element name="AccountType" type="xs:string"></xs:element>
+<xs:element name="BDCAssociatedEntity">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="pc:BDCEntity" minOccurs="0" maxOccurs="unbounded"></xs:element>
+</xs:sequence>
+<xs:attribute ref="pc:EntityNamespace"></xs:attribute>
+<xs:attribute ref="pc:EntityName"></xs:attribute>
+<xs:attribute ref="pc:SystemInstanceName"></xs:attribute>
+<xs:attribute ref="pc:AssociationName"></xs:attribute>
+</xs:complexType>
+</xs:element>
+<xs:attribute name="EntityNamespace" type="xs:string"></xs:attribute>
+<xs:attribute name="EntityName" type="xs:string"></xs:attribute>
+<xs:attribute name="SystemInstanceName" type="xs:string"></xs:attribute>
+<xs:attribute name="AssociationName" type="xs:string"></xs:attribute>
+<xs:element name="BDCEntity">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="pc:EntityDisplayName" minOccurs="0"></xs:element>
+<xs:element ref="pc:EntityInstanceReference" minOccurs="0"></xs:element>
+<xs:element ref="pc:EntityId1" minOccurs="0"></xs:element>
+<xs:element ref="pc:EntityId2" minOccurs="0"></xs:element>
+<xs:element ref="pc:EntityId3" minOccurs="0"></xs:element>
+<xs:element ref="pc:EntityId4" minOccurs="0"></xs:element>
+<xs:element ref="pc:EntityId5" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="EntityDisplayName" type="xs:string"></xs:element>
+<xs:element name="EntityInstanceReference" type="xs:string"></xs:element>
+<xs:element name="EntityId1" type="xs:string"></xs:element>
+<xs:element name="EntityId2" type="xs:string"></xs:element>
+<xs:element name="EntityId3" type="xs:string"></xs:element>
+<xs:element name="EntityId4" type="xs:string"></xs:element>
+<xs:element name="EntityId5" type="xs:string"></xs:element>
+<xs:element name="Terms">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="pc:TermInfo" minOccurs="0" maxOccurs="unbounded"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="TermInfo">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="pc:TermName" minOccurs="0"></xs:element>
+<xs:element ref="pc:TermId" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="TermName" type="xs:string"></xs:element>
+<xs:element name="TermId" type="xs:string"></xs:element>
+</xs:schema>
+</ct:contentTypeSchema>
